@@ -1,0 +1,47 @@
+VIM - Vi IMproved 8.1 (2018 May 18, compiled Aug 13 2018 19:48:06)
+Included patches: 1-279
+Compiled by Brenton Horne <brentonhorne77 at gmail dot com>
+Huge version with GTK2 GUI.  Features included (+) or not (-):
++acl               +extra_search      +mouse_netterm     +tag_old_static
++arabic            +farsi             +mouse_sgr         -tag_any_white
++autocmd           +file_in_path      -mouse_sysmouse    -tcl
++autochdir         +find_in_path      +mouse_urxvt       +termguicolors
+-autoservername    +float             +mouse_xterm       +terminal
++balloon_eval      +folding           +multi_byte        +terminfo
++balloon_eval_term -footer            +multi_lang        +termresponse
++browse            +fork()            -mzscheme          +textobjects
+++builtin_terms    +gettext           +netbeans_intg     +timers
++byte_offset       -hangul_input      +num64             +title
++channel           +iconv             +packages          +toolbar
++cindent           +insert_expand     +path_extra        +user_commands
++clientserver      +job               +perl/dyn          +vartabs
++clipboard         +jumplist          +persistent_undo   +vertsplit
++cmdline_compl     +keymap            +postscript        +virtualedit
++cmdline_hist      +lambda            +printer           +visual
++cmdline_info      +langmap           +profile           +visualextra
++comments          +libcall           +python/dyn        +viminfo
++conceal           +linebreak         +python3/dyn       +vreplace
++cryptv            +lispindent        +quickfix          +wildignore
++cscope            +listcmds          +reltime           +wildmenu
++cursorbind        +localmap          +rightleft         +windows
++cursorshape       +lua/dyn           +ruby/dyn          +writebackup
++dialog_con_gui    +menu              +scrollbind        +X11
++diff              +mksession         +signs             -xfontset
++digraphs          +modify_fname      +smartindent       +xim
++dnd               +mouse             +startuptime       +xpm
+-ebcdic            +mouseshape        +statusline        +xsmp_interact
++emacs_tags        +mouse_dec         -sun_workshop      +xterm_clipboard
++eval              +mouse_gpm         +syntax            -xterm_save
++ex_extra          -mouse_jsbterm     +tag_binary        
+   system vimrc file: "/etc/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  system gvimrc file: "/etc/gvimrc"
+    user gvimrc file: "$HOME/.gvimrc"
+2nd user gvimrc file: "~/.vim/gvimrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+    system menu file: "$VIMRUNTIME/menu.vim"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -DFEAT_GUI_GTK  -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/atk-1.0 -pthread  -D_FORTIFY_SOURCE=2  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1       
+Linking: gcc   -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector -rdynamic -Wl,-export-dynamic -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.28/core_perl/CORE  -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -L/usr/local/lib -Wl,--as-needed -o vim   -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype  -lSM -lICE -lXpm -lXt -lX11 -lXdmcp -lSM -lICE  -lm -ltinfo -lelf -lnsl    -lacl -lattr -lgpm -ldl   -Wl,-E -Wl,-rpath,/usr/lib/perl5/5.28/core_perl/CORE -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -L/usr/local/lib  -L/usr/lib/perl5/5.28/core_perl/CORE -lperl -lpthread -ldl -lm -lcrypt -lutil -lc        

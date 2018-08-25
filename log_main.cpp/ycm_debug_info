@@ -1,0 +1,18 @@
+Printing YouCompleteMe debug information...
+-- Client logfile: /tmp/ycm_mz8hclgs.log
+-- Server Python interpreter: /usr/bin/python
+-- Server Python version: 3.7.0
+-- Server has Clang support compiled in: True
+-- Clang version: clang version 6.0.0 (tags/RELEASE_600/final)
+-- Extra configuration file found and loaded
+-- Extra configuration path: /work/xlab/ycm_problem/.ycm_extra_conf.py
+-- C-family completer debug information:
+--   Compilation database path: None
+--   Flags: ['-Wall', '-Wextra', '-Werror', '-fexceptions', '-DNDEBUG', '-std=c++17', '-x', 'c++', '-isystem', '/usr/include', '-isystem', '/usr/local/include', '-resource-dir=/home/jayesh/.v
+im/plugged/YouCompleteMe/third_party/ycmd/ycmd/../clang_includes', '-fspell-checking']
+--   Translation unit: /work/xlab/ycm_problem/main.cpp
+-- Server running at: http://127.0.0.1:50323
+-- Server process ID: 26276
+-- Server logfiles:
+--   /tmp/ycmd_50323_stdout_tr07iymd.log
+--   /tmp/ycmd_50323_stderr_1nbz7yzp.log

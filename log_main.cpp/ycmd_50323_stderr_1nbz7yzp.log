@@ -1,0 +1,57 @@
+2018-08-25 14:16:21,426 - INFO - Received ready request
+2018-08-25 14:16:21,433 - INFO - Received event notification
+2018-08-25 14:16:21,436 - INFO - Received event notification
+2018-08-25 14:16:21,436 - INFO - Adding buffer identifiers for file: /work/xlab/ycm_problem/main.cpp
+Traceback (most recent call last):
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/bottle/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/bottle/bottle.py", line 1740, in wrapper
+    rv = callback(*a, **ka)
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/watchdog_plugin.py", line 107, in wrapper
+    return callback( *args, **kwargs )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/hmac_plugin.py", line 70, in wrapper
+    body = callback( *args, **kwargs )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 70, in EventNotification
+    event_handler )( request_data )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/cpp/clang_completer.py", line 346, in OnFileReadyToParse
+    flags, filename = self._FlagsForRequest( request_data )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/cpp/clang_completer.py", line 445, in _FlagsForRequest
+    return self._flags.FlagsForFile( filename, client_data = client_data )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/cpp/flags.py", line 131, in FlagsForFile
+    results = self._GetFlagsFromExtraConfOrDatabase( filename, client_data )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/cpp/flags.py", line 170, in _GetFlagsFromExtraConfOrDatabase
+    module = extra_conf_store.ModuleForSourceFile( filename )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/extra_conf_store.py", line 66, in ModuleForSourceFile
+    return Load( ModuleFileForSourceFile( filename ) )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/extra_conf_store.py", line 77, in ModuleFileForSourceFile
+    if Load( module_file ):
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/extra_conf_store.py", line 163, in Load
+    if not force and not _ShouldLoad( module_file, is_global ):
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/extra_conf_store.py", line 146, in _ShouldLoad
+    raise UnknownExtraConf( module_file )
+ycmd.responses.UnknownExtraConf: Found /work/xlab/ycm_problem/.ycm_extra_conf.py. Load? 
+
+(Question can be turned off with options, see YCM docs)
+2018-08-25 14:16:21,537 - INFO - Received filetype completion available request
+2018-08-25 14:16:22,556 - INFO - Received extra conf load request
+2018-08-25 14:16:22,563 - INFO - Received event notification
+2018-08-25 14:16:22,563 - INFO - Adding buffer identifiers for file: /work/xlab/ycm_problem/main.cpp
+2018-08-25 14:16:28,674 - INFO - Received debug info request
+2018-08-25 14:17:04,918 - INFO - Received debug info request
+2018-08-25 14:18:57,246 - INFO - Received event notification
+2018-08-25 14:18:57,246 - ERROR - No semantic completer exists for filetypes: ['conf']
+Traceback (most recent call last):
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 101, in FiletypeCompletionAvailable
+    self.GetFiletypeCompleter( filetypes )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 90, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: ['conf']
+2018-08-25 14:18:57,249 - INFO - Received event notification
+2018-08-25 14:18:57,249 - INFO - Adding buffer identifiers for file: /work/xlab/ycm_problem/2
+2018-08-25 14:18:57,250 - ERROR - No semantic completer exists for filetypes: ['conf']
+Traceback (most recent call last):
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 101, in FiletypeCompletionAvailable
+    self.GetFiletypeCompleter( filetypes )
+  File "/home/jayesh/.vim/plugged/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 90, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: ['conf']
